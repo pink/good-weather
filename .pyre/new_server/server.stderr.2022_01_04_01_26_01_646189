@@ -1,0 +1,180 @@
+2022-01-04 01:26:01 INFO Initializing file watching service...
+2022-01-04 01:26:01 INFO Connecting to watchman...
+2022-01-04 01:26:01 INFO Established watchman connection.
+2022-01-04 01:26:01 INFO Server has started listening on socket `/var/folders/rb/d1vdw0rs2dn67mx0vzr50nwm0000gn/T/pyre_server_eac2652cc232090666cc65dbf7b249e9.sock`
+2022-01-04 01:26:01 INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2022-01-04 01:26:01 INFO Initializing server state from scratch...
+2022-01-04 01:26:01 INFO Building module tracker...
+2022-01-04 01:26:02 PERFORMANCE Module tracker built: 0.27s
+2022-01-04 01:26:02 INFO Building type environment...
+2022-01-04 01:26:02 INFO Parsing 3024 stubs and sources...
+2022-01-04 01:26:03 PERFORMANCE Sources parsed: 1.56s
+2022-01-04 01:26:04 PERFORMANCE Full environment built: 2.75s
+2022-01-04 01:26:05 INFO Checking 3 functions...
+2022-01-04 01:26:05 PROGRESS Processed 3 of 3 functions
+2022-01-04 01:26:05 PERFORMANCE Check_TypeCheck: 0.11s
+2022-01-04 01:26:05 MEMORY Shared memory size post-typecheck (size: 38)
+2022-01-04 01:26:05 PROGRESS Postprocessing 3024 sources...
+2022-01-04 01:26:05 PROGRESS Postprocessed 127 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 254 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 381 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 508 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 635 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 762 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 889 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1016 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1143 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1270 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1397 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1524 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1651 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1778 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 1905 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2032 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2159 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2262 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2389 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2516 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2643 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2770 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 2897 of 3024 sources
+2022-01-04 01:26:05 PROGRESS Postprocessed 3024 of 3024 sources
+2022-01-04 01:26:05 PERFORMANCE Initialization: 3.54s
+2022-01-04 01:26:05 INFO Server state initialized.
+2022-01-04 01:26:05 SERVER Connection established
+2022-01-04 01:26:05 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:26:05 PERFORMANCE Server request: 0.00s
+2022-01-04 01:26:05 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:26:05 SERVER Connection closed
+2022-01-04 01:26:27 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-04 01:26:27 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-04 01:26:27 SERVER Implicit Module Update: (implicit_updates())
+2022-01-04 01:26:27 PERFORMANCE Module tracker updated: 0.00s
+2022-01-04 01:26:27 INFO Repopulating the environment...
+2022-01-04 01:26:27 INFO Checking 0 functions...
+2022-01-04 01:26:27 PROGRESS Processed 0 of 0 functions
+2022-01-04 01:26:27 PERFORMANCE Check_TypeCheck: 0.00s
+2022-01-04 01:26:27 PROGRESS Postprocessing 1 sources...
+2022-01-04 01:26:27 PROGRESS Postprocessed 1 of 1 sources
+2022-01-04 01:26:27 MEMORY Shared memory size (size: 38)
+2022-01-04 01:26:27 INFO Number of new errors = 1
+2022-01-04 01:26:27 PERFORMANCE Incremental check: 0.11s
+2022-01-04 01:26:27 PERFORMANCE Server request: 0.17s
+2022-01-04 01:26:27 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-04 01:26:28 SERVER Connection established
+2022-01-04 01:26:28 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:26:28 PERFORMANCE Server request: 0.00s
+2022-01-04 01:26:28 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:26:28 SERVER Connection closed
+2022-01-04 01:26:35 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-04 01:26:35 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-04 01:26:35 SERVER Implicit Module Update: (implicit_updates())
+2022-01-04 01:26:35 PERFORMANCE Module tracker updated: 0.00s
+2022-01-04 01:26:35 INFO Repopulating the environment...
+2022-01-04 01:26:35 INFO Checking 4 functions...
+2022-01-04 01:26:35 PROGRESS Processed 4 of 4 functions
+2022-01-04 01:26:35 PERFORMANCE Check_TypeCheck: 0.01s
+2022-01-04 01:26:35 PROGRESS Postprocessing 1 sources...
+2022-01-04 01:26:35 PROGRESS Postprocessed 1 of 1 sources
+2022-01-04 01:26:35 MEMORY Shared memory size (size: 38)
+2022-01-04 01:26:35 INFO Number of new errors = 0
+2022-01-04 01:26:35 PERFORMANCE Incremental check: 0.11s
+2022-01-04 01:26:35 PERFORMANCE Server request: 0.18s
+2022-01-04 01:26:35 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-04 01:26:38 SERVER Connection established
+2022-01-04 01:26:38 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:26:38 PERFORMANCE Server request: 0.00s
+2022-01-04 01:26:38 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:26:38 SERVER Connection closed
+2022-01-04 01:26:47 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-04 01:26:47 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-04 01:26:47 SERVER Implicit Module Update: (implicit_updates())
+2022-01-04 01:26:47 PERFORMANCE Module tracker updated: 0.00s
+2022-01-04 01:26:47 INFO Repopulating the environment...
+2022-01-04 01:26:47 INFO Checking 4 functions...
+2022-01-04 01:26:47 PROGRESS Processed 4 of 4 functions
+2022-01-04 01:26:47 PERFORMANCE Check_TypeCheck: 0.00s
+2022-01-04 01:26:47 PROGRESS Postprocessing 1 sources...
+2022-01-04 01:26:47 PROGRESS Postprocessed 1 of 1 sources
+2022-01-04 01:26:47 MEMORY Shared memory size (size: 38)
+2022-01-04 01:26:47 INFO Number of new errors = 1
+2022-01-04 01:26:47 PERFORMANCE Incremental check: 0.10s
+2022-01-04 01:26:47 PERFORMANCE Server request: 0.17s
+2022-01-04 01:26:47 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-04 01:26:49 SERVER Connection established
+2022-01-04 01:26:49 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:26:49 PERFORMANCE Server request: 0.00s
+2022-01-04 01:26:49 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:26:49 SERVER Connection closed
+2022-01-04 01:27:20 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-04 01:27:20 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-04 01:27:20 SERVER Implicit Module Update: (implicit_updates())
+2022-01-04 01:27:20 PERFORMANCE Module tracker updated: 0.00s
+2022-01-04 01:27:21 INFO Repopulating the environment...
+2022-01-04 01:27:21 INFO Checking 4 functions...
+2022-01-04 01:27:21 PROGRESS Processed 4 of 4 functions
+2022-01-04 01:27:21 PERFORMANCE Check_TypeCheck: 0.00s
+2022-01-04 01:27:21 PROGRESS Postprocessing 1 sources...
+2022-01-04 01:27:21 PROGRESS Postprocessed 1 of 1 sources
+2022-01-04 01:27:21 MEMORY Shared memory size (size: 38)
+2022-01-04 01:27:21 INFO Number of new errors = 1
+2022-01-04 01:27:21 PERFORMANCE Incremental check: 0.12s
+2022-01-04 01:27:21 PERFORMANCE Server request: 0.19s
+2022-01-04 01:27:21 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-04 01:27:23 SERVER Connection established
+2022-01-04 01:27:23 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:27:23 PERFORMANCE Server request: 0.00s
+2022-01-04 01:27:23 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:27:23 SERVER Connection closed
+2022-01-04 01:27:39 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-04 01:27:39 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-04 01:27:39 SERVER Implicit Module Update: (implicit_updates())
+2022-01-04 01:27:39 PERFORMANCE Module tracker updated: 0.00s
+2022-01-04 01:27:40 INFO Repopulating the environment...
+2022-01-04 01:27:40 INFO Checking 3 functions...
+2022-01-04 01:27:40 PROGRESS Processed 3 of 3 functions
+2022-01-04 01:27:40 PERFORMANCE Check_TypeCheck: 0.00s
+2022-01-04 01:27:40 PROGRESS Postprocessing 1 sources...
+2022-01-04 01:27:40 PROGRESS Postprocessed 1 of 1 sources
+2022-01-04 01:27:40 MEMORY Shared memory size (size: 38)
+2022-01-04 01:27:40 INFO Number of new errors = 0
+2022-01-04 01:27:40 PERFORMANCE Incremental check: 0.11s
+2022-01-04 01:27:40 PERFORMANCE Server request: 0.18s
+2022-01-04 01:27:40 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-04 01:27:42 SERVER Connection established
+2022-01-04 01:27:42 SERVER Processing request (DisplayTypeError())...
+2022-01-04 01:27:42 PERFORMANCE Server request: 0.00s
+2022-01-04 01:27:42 SERVER Request `(DisplayTypeError())` processed
+2022-01-04 01:27:42 SERVER Connection closed
+2022-01-06 00:38:50 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-06 00:38:50 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-06 00:38:50 SERVER Implicit Module Update: (implicit_updates())
+2022-01-06 00:38:50 PERFORMANCE Module tracker updated: 0.01s
+2022-01-06 00:38:50 INFO Repopulating the environment...
+2022-01-06 00:38:50 INFO Checking 3 functions...
+2022-01-06 00:38:50 PROGRESS Processed 3 of 3 functions
+2022-01-06 00:38:50 PERFORMANCE Check_TypeCheck: 0.03s
+2022-01-06 00:38:50 PROGRESS Postprocessing 1 sources...
+2022-01-06 00:38:50 PROGRESS Postprocessed 1 of 1 sources
+2022-01-06 00:38:50 MEMORY Shared memory size (size: 38)
+2022-01-06 00:38:50 INFO Number of new errors = 0
+2022-01-06 00:38:50 PERFORMANCE Incremental check: 0.34s
+2022-01-06 00:38:50 PERFORMANCE Server request: 0.39s
+2022-01-06 00:38:50 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-06 00:40:17 SERVER Processing request (IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))...
+2022-01-06 00:40:17 SERVER Explicit Module Update: (explicit_updates((Changed((relative weather_data/weather.py)(qualifier(weather_data weather))(priority 103)(is_stub false)(is_external false)(is_init false)))))
+2022-01-06 00:40:17 SERVER Implicit Module Update: (implicit_updates())
+2022-01-06 00:40:17 PERFORMANCE Module tracker updated: 0.00s
+2022-01-06 00:40:17 INFO Repopulating the environment...
+2022-01-06 00:40:17 INFO Checking 0 functions...
+2022-01-06 00:40:17 PROGRESS Processed 0 of 0 functions
+2022-01-06 00:40:17 PERFORMANCE Check_TypeCheck: 0.00s
+2022-01-06 00:40:17 PROGRESS Postprocessing 1 sources...
+2022-01-06 00:40:17 PROGRESS Postprocessed 1 of 1 sources
+2022-01-06 00:40:17 MEMORY Shared memory size (size: 38)
+2022-01-06 00:40:17 INFO Number of new errors = 0
+2022-01-06 00:40:17 PERFORMANCE Incremental check: 0.14s
+2022-01-06 00:40:17 PERFORMANCE Server request: 0.19s
+2022-01-06 00:40:17 SERVER Request `(IncrementalUpdate(/Users/seank/Documents/good-weather/weather_data/weather.py))` processed
+2022-01-06 10:43:14 INFO Shutting down watchman connection...
+2022-01-06 10:43:14 INFO Server is going down. Cleaning up...
